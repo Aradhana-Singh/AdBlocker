@@ -1,0 +1,15 @@
+{
+    "name": "adBlocker",
+    "version": "1.0",
+    "manifest_version" :2,
+    "description": "My ad-blocker extension",
+    "permissions" : ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "48" : "icons/icons_48.png",
+        "64" : "icons/icons_64.png",
+        "128" : "icons/icons_128.png"
+    }
+}
